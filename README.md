@@ -1,2 +1,2 @@
 # mozart-clarinet-concerto
-a digital encoding of the first movement
+This folder contains encoding of the first movement of Clarinet Concerto in A major KV 622 by W. A. Mozart. MEI-files are already integrated in HTML-templates provided by verovio.org.
