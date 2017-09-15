@@ -20353,24 +20353,24 @@
                       <beam>
                         <note xml:id="de116287" pname="c" oct="4" dur="16" color="#000000"
                           stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e116308" pname="f" accid="s" oct="4" dur="16"
+                        <note xml:id="d1ee116308" pname="f" accid="s" oct="4" dur="16"
                           color="#000000" stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e116333" pname="a" oct="4" dur="16" color="#000000"
+                        <note xml:id="d1ee116333" pname="a" oct="4" dur="16" color="#000000"
                           stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e116354" pname="c" oct="5" dur="16" color="#000000"
+                        <note xml:id="d1ee116354" pname="c" oct="5" dur="16" color="#000000"
                           stem.dir="up" instr="P4-I1"/>
                       </beam>
                       <beam>
-                        <note xml:id="d1e116375" pname="f" oct="5" dur="16" color="#000000"
+                        <note xml:id="d1ee116375" pname="f" oct="5" dur="16" color="#000000"
                           stem.dir="down" accid="s" instr="P4-I1"/>
-                        <note xml:id="d1e116398" pname="a" oct="5" dur="16" color="#000000"
+                        <note xml:id="d1ee116398" pname="a" oct="5" dur="16" color="#000000"
                           stem.dir="down" instr="P4-I1"/>
-                        <note xml:id="d1e116419" pname="c" oct="6" dur="16" color="#000000"
+                        <note xml:id="d1ee116419" pname="c" oct="6" dur="16" color="#000000"
                           stem.dir="down" instr="P4-I1"/>
-                        <note xml:id="d1e116440" pname="e" accid="f" oct="6" dur="16"
+                        <note xml:id="d1ee116440" pname="e" accid="f" oct="6" dur="16"
                           color="#000000" stem.dir="down" instr="P4-I1"/>
                       </beam>
-                      <note xml:id="d1e116465" pname="f" accid="s" oct="6" dur="4" color="#000000"
+                      <note xml:id="d1ee116465" pname="f" accid="s" oct="6" dur="4" color="#000000"
                         stem.dir="down" instr="P4-I1"/>
                     </reg>
                   </choice>
@@ -20487,26 +20487,26 @@
                     </orig>
                     <reg resp="#ao.spv" xml:id="ch4r1" label="common interpretation">
                       <beam>
-                        <note xml:id="d1e116943" pname="c" accid="s" oct="4" dur="16"
+                        <note xml:id="d1ee116943" pname="c" accid="s" oct="4" dur="16"
                           color="#000000" stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e116968" pname="e" accid="n" oct="4" dur="16"
+                        <note xml:id="d1ee116968" pname="e" accid="n" oct="4" dur="16"
                           color="#000000" stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e116991" pname="g" oct="4" dur="16" color="#000000"
+                        <note xml:id="d1ee116991" pname="g" oct="4" dur="16" color="#000000"
                           stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e117012" pname="c" accid="s" oct="5" dur="16"
+                        <note xml:id="d1ee117012" pname="c" accid="s" oct="5" dur="16"
                           color="#000000" stem.dir="up" instr="P4-I1"/>
                       </beam>
                       <beam>
-                        <note xml:id="d1e117037" pname="e" oct="5" dur="16" color="#000000"
+                        <note xml:id="d1ee117037" pname="e" oct="5" dur="16" color="#000000"
                           stem.dir="up" accid="n" instr="P4-I1"/>
-                        <note xml:id="d1e117058" pname="g" oct="5" dur="16" color="#000000"
+                        <note xml:id="d1ee117058" pname="g" oct="5" dur="16" color="#000000"
                           stem.dir="up" instr="P4-I1"/>
-                        <note xml:id="d1e117079" pname="c" oct="6" dur="16" color="#000000"
+                        <note xml:id="d1ee117079" pname="c" oct="6" dur="16" color="#000000"
                           stem.dir="up" accid="s" instr="P4-I1"/>
-                        <note xml:id="d1e117102" pname="e" accid="n" oct="6" dur="16"
+                        <note xml:id="d1ee117102" pname="e" accid="n" oct="6" dur="16"
                           color="#000000" stem.dir="up" instr="P4-I1"/>
                       </beam>
-                      <note xml:id="d1e117125" pname="g" oct="6" dur="4" color="#000000"
+                      <note xml:id="d1ee117125" pname="g" oct="6" dur="4" color="#000000"
                         stem.dir="down" instr="P4-I1"/>
                     </reg>
                   </choice>
@@ -28025,7 +28025,7 @@
               <staff n="4">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e161525" pname="f" oct="5" dur="8" color="#000000"
+                    <note xml:id="d1ee161525" pname="f" oct="5" dur="8" color="#000000"
                       stem.dir="down" instr="P4-I1">
                       <artic artic="stacc"/>
                     </note>
@@ -28046,86 +28046,138 @@
                   </beam>
                 </layer>
               </staff>
-              <!--<ossia>
-                <staff>
-                  <layer n="1">
-                    <beam>
-                      <note xml:id="d1e162" pname="f" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P1-I1"/>
-                      <note xml:id="d1e183" pname="a" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P1-I1"/>
-                    </beam>
-                    <note xml:id="d1e202" pname="c" oct="6" dur="4" dots="1" color="#000000"
-                      stem.dir="down" instr="P1-I1"/>
-                    <beam>
-                      <note xml:id="d1e220" pname="a" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P1-I1"/>
-                      <note xml:id="d1e239" pname="g" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P1-I1"/>
-                      <note xml:id="d1e258" pname="f" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P1-I1"/>
-                    </beam>
-                  </layer>
-                </staff>
-                <staff n="4">
-                  <layer n="1">
-                    <beam>
-                      <note xml:id="d1e161525" pname="f" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P4-I1">
-                        <artic artic="stacc"/>
-                      </note>
-                      <note xml:id="d1e161547" pname="a" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P4-I1">
-                        <artic artic="stacc"/>
-                      </note>
-                    </beam>
-                    <note xml:id="d1e161569" pname="c" oct="6" dur="4" dots="1" color="#000000"
-                      stem.dir="down" instr="P4-I1"/>
-                    <beam>
-                      <note xml:id="d1e161589" pname="a" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P4-I1"/>
-                      <note xml:id="d1e161608" pname="g" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P4-I1"/>
-                      <note xml:id="d1e161627" pname="f" oct="5" dur="8" color="#000000"
-                        stem.dir="down" instr="P4-I1"/>
-                    </beam>
-                  </layer>
-                </staff>
-              </ossia>-->
+              
+              <!--should be an ossia on a separate staff    
+                                <ossia>                                                                              
+                                    <staff>                           
+                                    <layer n="1">
+                                        <beam>
+                                            <note xml:id="d1e162" pname="f" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P1-I1"/>
+                                            <note xml:id="d1e183" pname="a" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P1-I1"/>
+                                        </beam>
+                                        <note xml:id="d1e202" pname="c" oct="6" dur="4" dots="1" color="#000000"
+                                            stem.dir="down" instr="P1-I1"/>
+                                        <beam>
+                                            <note xml:id="d1e220" pname="a" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P1-I1"/>
+                                            <note xml:id="d1e239" pname="g" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P1-I1"/>
+                                            <note xml:id="d1e258" pname="f" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P1-I1"/>
+                                        </beam>
+                                    </layer>
+                                </staff>
+                                <staff n="4">
+                                    <layer n="1">
+                                        <beam>
+                                            <note xml:id="d1e161525" pname="f" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P4-I1">
+                                                <artic artic="stacc"/>
+                                            </note>
+                                            <note xml:id="d1ee161547" pname="a" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P4-I1">
+                                                <artic artic="stacc"/>
+                                            </note>
+                                        </beam>
+                                        <note xml:id="d1ee161569" pname="c" oct="6" dur="4" dots="1" color="#000000"
+                                            stem.dir="down" instr="P4-I1"/>
+                                        <beam>
+                                            <note xml:id="d1ee161589" pname="a" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P4-I1"/>
+                                            <note xml:id="d1ee161608" pname="g" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P4-I1"/>
+                                            <note xml:id="d1ee161627" pname="f" oct="5" dur="8" color="#000000"
+                                                stem.dir="down" instr="P4-I1"/>
+                                        </beam>
+                                    </layer>
+                                </staff>
+                            </ossia> -->
+              
+              <!--should be an inline ossia
+                          <staff n="4">
+                                <ossia>
+                                    <layer n="1">
+                                        <beam>
+                                            <note xml:id="d1ee161525" pname="f" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P4-I1">
+                                                <artic artic="stacc"/>
+                                            </note>
+                                            <note xml:id="d1e161547" pname="a" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P4-I1">
+                                                <artic artic="stacc"/>
+                                            </note>
+                                        </beam>
+                                        <note xml:id="d1e161569" pname="c" oct="6" dur="4" dots="1"
+                                            color="#000000" stem.dir="down" instr="P4-I1"/>
+                                        <beam>
+                                            <note xml:id="d1e161589" pname="a" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P4-I1"/>
+                                            <note xml:id="d1e161608" pname="g" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P4-I1"/>
+                                            <note xml:id="d1e161627" pname="f" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P4-I1"/>
+                                        </beam>
+                                    </layer>
+                                    <layer>
+                                        <beam>
+                                            <note xml:id="d1e162" pname="f" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P1-I1"/>
+                                            <note xml:id="d1e183" pname="a" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P1-I1"/>
+                                        </beam>
+                                        <note xml:id="d1e202" pname="c" oct="6" dur="4" dots="1"
+                                            color="#000000" stem.dir="down" instr="P1-I1"/>
+                                        <beam>
+                                            <note xml:id="d1e220" pname="a" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P1-I1"/>
+                                            <note xml:id="d1e239" pname="g" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P1-I1"/>
+                                            <note xml:id="d1e258" pname="f" oct="5" dur="8"
+                                                color="#000000" stem.dir="down" instr="P1-I1"/>
+                                        </beam>
+                                    </layer>
+                                </ossia>
+                            </staff>-->
               <staff n="5">
                 <layer n="1">
                   <beam>
-                    <note xml:id="d1e161661" pname="f" oct="4" dur="8" color="#000000" stem.dir="up"
-                      accid.ges="s" instr="P5-I1"/>
-                    <note xml:id="d1e161684" pname="a" oct="4" dur="8" color="#000000" stem.dir="up"
+                    <note xml:id="d1e161661" pname="f" oct="4" dur="8"
+                      color="#000000" stem.dir="up" accid.ges="s"
                       instr="P5-I1"/>
-                    <note xml:id="d1e161703" pname="f" oct="4" dur="8" color="#000000" stem.dir="up"
-                      accid.ges="s" instr="P5-I1"/>
-                    <note xml:id="d1e161724" pname="a" oct="4" dur="8" color="#000000" stem.dir="up"
+                    <note xml:id="d1e161684" pname="a" oct="4" dur="8"
+                      color="#000000" stem.dir="up" instr="P5-I1"/>
+                    <note xml:id="d1e161703" pname="f" oct="4" dur="8"
+                      color="#000000" stem.dir="up" accid.ges="s"
                       instr="P5-I1"/>
+                    <note xml:id="d1e161724" pname="a" oct="4" dur="8"
+                      color="#000000" stem.dir="up" instr="P5-I1"/>
                   </beam>
                   <beam>
-                    <note xml:id="d1e161743" pname="f" oct="4" dur="8" color="#000000" stem.dir="up"
-                      accid.ges="s" instr="P5-I1"/>
-                    <note xml:id="d1e161764" pname="a" oct="4" dur="8" color="#000000" stem.dir="up"
+                    <note xml:id="d1e161743" pname="f" oct="4" dur="8"
+                      color="#000000" stem.dir="up" accid.ges="s"
                       instr="P5-I1"/>
-                    <note xml:id="d1e161783" pname="f" oct="4" dur="8" color="#000000" stem.dir="up"
-                      accid.ges="s" instr="P5-I1"/>
-                    <note xml:id="d1e161804" pname="a" oct="4" dur="8" color="#000000" stem.dir="up"
+                    <note xml:id="d1e161764" pname="a" oct="4" dur="8"
+                      color="#000000" stem.dir="up" instr="P5-I1"/>
+                    <note xml:id="d1e161783" pname="f" oct="4" dur="8"
+                      color="#000000" stem.dir="up" accid.ges="s"
                       instr="P5-I1"/>
+                    <note xml:id="d1e161804" pname="a" oct="4" dur="8"
+                      color="#000000" stem.dir="up" instr="P5-I1"/>
                   </beam>
                 </layer>
               </staff>
               <staff n="6">
                 <layer n="1">
-                  <note xml:id="d1e161838" pname="a" oct="4" dur="1" color="#000000" tie="i"
-                    instr="P6-I1"/>
+                  <note xml:id="d1e161838" pname="a" oct="4" dur="1"
+                    color="#000000" tie="i" instr="P6-I1"/>
                 </layer>
               </staff>
               <staff n="7">
                 <layer n="1">
-                  <note xml:id="d1e161869" pname="f" oct="4" dur="1" color="#000000" accid.ges="s"
-                    instr="P7-I1"/>
+                  <note xml:id="d1e161869" pname="f" oct="4" dur="1"
+                    color="#000000" accid.ges="s" instr="P7-I1"/>
                 </layer>
               </staff>
               <staff n="8">
@@ -28133,12 +28185,13 @@
                   <mRest xml:id="d1e161901" dur="1"/>
                 </layer>
               </staff>
+              <!--  slur for ossia on a separate staff: <slur startid="#d1e162" curvedir="above" endid="#d1e258"/>-->
+              <slur staff="4" startid="#d1e161569" endid="#d1e161627"
+                curvedir="above"/>
               <slur tstamp="1" startid="#d1e161661" curvedir="below" tstamp2="0m+4.5"
                 endid="#d1e161804" staff="5"/>
               <slur tstamp="1" startid="#d1e161869" curvedir="above" tstamp2="1m+1"
                 endid="#d1e162250" staff="7"/>
-              <slur tstamp="2" startid="#d1e161569" curvedir="above" tstamp2="0m+4.5"
-                endid="#d1e161627" staff="4"/>
             </measure>
             <measure n="205" xml:id="d1e161912">
               <staff n="1">
@@ -42755,7 +42808,7 @@
                           stem.dir="down" instr="P1-I1"/>
                       </beam>
                       <beam>
-                        <note xml:id="d1e875" pname="d" oct="5" dur="16" color="#000000"
+                        <note xml:id="d1ee875" pname="d" oct="5" dur="16" color="#000000"
                           stem.dir="down" instr="P1-I1"/>
                         <note xml:id="d1e899" pname="f" oct="5" dur="16" color="#000000"
                           stem.dir="down" instr="P1-I1"/>
