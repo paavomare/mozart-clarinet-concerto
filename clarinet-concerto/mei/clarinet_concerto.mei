@@ -138,534 +138,169 @@
     </fileDesc>
     <encodingDesc>
       <appInfo>
-        <application isodate="2017-09-15" version="18.1">
-          <name>&lt;oXygen/&gt;XML Editor</name>
+        <application xml:id="sibelius_8.2" version="8.2">
+          <name type="scorewriter">Sibelius</name>
         </application>
-        <application label="Schema generated from ODD source 2017-05-08T18:54:48Z">
-          <name>mei-CMN.rng</name>        
-        </application>               
+        <application xml:id="xsl_mxl2mei_3.0" version="3.0">
+          <name type="xslt_stylesheet">MusicXML2MEI</name>
+        </application>
+        <application xml:id="xsl_parttime_2.0" version="2.0">
+          <name type="xslt_stylesheet">MusicXML-parttime-stylesheet</name>
+        </application>
+        <application xml:id="oxygen" version="18.1">
+          <name type="XML-editor">&lt;oXygen/&gt;XML Editor</name>
+        </application>
+        <application xml:id="cmn-rng-2017.05"
+          label="Schema generated from ODD source 2017-05-08T18:54:48Z">
+          <name type="rng-schema">mei-CMN.rng</name>
+        </application>
       </appInfo>
       <editorialDecl>
-        <p>There were no editorial interventions made. Additional cadenzas by Meyer/Wehle are provided for demonstration purpose only. This section
-          could be extended with other suggestions from these editors as well as with cadenzas
-          from earlier authors such as Stanislav Krticka, Jacque Ibert, Karlheinz Stockchausen (cf.
-          Lawson, 1996, pp. 75-76). Another option for a future digital edition would be to merge
-          the both versions for basset- and soprano clarinets.</p>
-        <p>Some features provided by MEI guidlines version 3.0 were not able to render in verovio.
-          These were commented out then: e.g. division into movements, ossia in bar 204, etc.</p>
-        <p/>
+        <correction n="1" xml:id="h-corr-1" method="tags" corrlevel="medium" >
+          <p>A slur (id="#corr-1") was added</p>         
+        </correction>
+        <normalization>
+          <p>There were several conflicts in syntax across MEI guidlines version 3.0, RNG-schema and
+            Verovio. Some features were not able to render (e.g. division into movements, ossia in
+            bar 204). Those were commented out with the purpose to resolve the issue in the future.
+          </p>
+        </normalization>
       </editorialDecl>
       <projectDesc>
-        <p>The aim of the encoding was an exact reproduction of the edition by Franz Giegling,
-          1977.</p>  
+        <p>The aim of the encoding was an exact reproduction of the edition by Franz Giegling, 1977.
+          Additional cadenzas by Meyer/Wehle are provided for a technical demonstration purpose only. This
+          section could be extended with other suggestions from these editors as well as with
+          cadenzas from earlier authors such as Stanislav Krticka, Jacque Ibert, Karlheinz
+          Stockchausen (cf. Lawson, 1996, pp. 75-76). Another option for a future digital edition
+          would be to merge the versions for basset- and soprano clarinets.</p>
       </projectDesc>
+      <samplingDecl>
+        <p>The encoding includes the first movement.</p>
+      </samplingDecl>
     </encodingDesc>
     <workDesc>
-      <work n="1">
+      <work n="1">             
+        <identifier type="Köchelverzeichnis">KV 622</identifier>
         <titleStmt>
           <title type="uniform">Konzert in A für Klarinette und Orchester : KV 622</title>
           <respStmt>
             <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/118584596"
               codedval="118584596">Wolfgang Amadeus Mozart</persName>
-          </respStmt>
+          </respStmt>          
         </titleStmt>
-        <key pname="a" mode="major">A Major</key>
-        <tempo>Allegro</tempo>
+        <incip xml:id="incip" label="first-four-bars-of--the-clarinet-part">
+          <score>
+            <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="3s"
+              key.mode="major">
+              <staffGrp>
+                <staffDef n="1" xml:id="P4" label="Clarinet in A (solo)" label.abbr="Cl." lines="5"
+                  clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
+              </staffGrp>
+            </scoreDef>
+            <section>
+              <measure n="1" xml:id="i-m1">
+                <staff n="1">
+                  <layer n="1">
+                    <note xml:id="i-m1-n1" pname="g" oct="5" dur="2" color="#000000" stem.dir="down"
+                      instr="P4-I1"/>
+                    <note xml:id="i-m1-n2" pname="e" oct="5" dur="4" dots="1" color="#000000"
+                      stem.dir="down" instr="P4-I1"/>
+                    <note xml:id="i-m1-n3" pname="f" oct="5" dur="8" color="#000000" stem.dir="down"
+                      instr="P4-I1"/>
+                  </layer>
+                </staff>
+                <tempo tstamp="1" place="above" staff="1" mm.unit="4" mm="120"> Allegro <rend
+                  fontfam="Times New Roman" fontstyle="normal" color="#000000"
+                  >�<!--[quarter]-->=120</rend>
+                </tempo>
+                <dynam tstamp="1" startid="#i-m1-n1" place="below" staff="1">
+                  <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
+                </dynam>
+                <slur tstamp="3" startid="#i-m1-n2" curvedir="above" tstamp2="0m+4.5"
+                  endid="#im1-n3" staff="4"/>
+              </measure>
+              <measure n="2" xml:id="i-m2">
+                <staff n="1">
+                  <layer n="1">
+                    <beam>
+                      <note xml:id="i-m2-n1" pname="a" oct="5" dur="8" color="#000000"
+                        stem.dir="down" instr="P4-I1"/>
+                      <note xml:id="i-m2-n2" pname="g" oct="5" dur="8" color="#000000"
+                        stem.dir="down" instr="P4-I1"/>
+                      <note pname="f" oct="5" dur="8" color="#000000" stem.dir="down" instr="P4-I1">
+                        <artic artic="stacc"/>
+                      </note>
+                      <note pname="e" oct="5" dur="8" color="#000000" stem.dir="down" instr="P4-I1">
+                        <artic artic="stacc"/>
+                      </note>
+                    </beam>
+                    <note pname="e" oct="5" dur="4" color="#000000" stem.dir="down" instr="P4-I1"/>
+                    <rest dur="4"/>
+                  </layer>
+                </staff>
+                <slur tstamp="1" startid="#i-m2-n1" curvedir="above" tstamp2="0m+1.5"
+                  endid="#i-m2-n2" staff="1"/>
+              </measure>
+              <measure n="3" xml:id="i-m3">
+                <staff n="1">
+                  <layer n="1">
+                    <note xml:id="i-m3-n1" pname="f" oct="5" dur="4" color="#000000" stem.dir="down"
+                      instr="P4-I1"/>
+                    <note xml:id="i-m3-n2" pname="d" oct="5" dur="8" color="#000000" stem.dir="down"
+                      instr="P4-I1"/>
+                    <rest dur="8"/>
+                    <note pname="f" oct="5" dur="4" color="#000000" stem.dir="down" instr="P4-I1"/>
+                    <note pname="d" oct="5" dur="8" color="#000000" stem.dir="down" instr="P4-I1"/>
+                    <rest dur="8"/>
+                  </layer>
+                </staff>
+                <slur tstamp="1" startid="#i-m3-n1" curvedir="above" tstamp2="0m+2" endid="#i-m3-n2"
+                  staff="1"/>
+              </measure>
+              <measure n="4" xml:id="i-m4">
+                <staff n="1">
+                  <layer n="1">
+                    <note xml:id="i-m4-n1" pname="c" oct="5" dur="2" color="#000000" stem.dir="down"
+                      instr="P4-I1"/>
+                    <note xml:id="i-m4-n2" pname="b" oct="4" dur="8" color="#000000" stem.dir="down"
+                      instr="P4-I1"/>
+                    <rest dur="8"/>
+                    <rest dur="4"/>
+                  </layer>
+                </staff>
+                <slur tstamp="1" startid="#i-m4-n1" curvedir="above" tstamp2="0m+3" endid="#i-m4-n2"
+                  staff="1"/>
+              </measure>
+            </section>
+          </score>
+        </incip>
+        <key pname="a" mode="major">A Major</key>        
         <meter count="4" unit="4"/>
+        <tempo>Allegro</tempo>   
         <perfMedium>
           <perfResList>
             <perfRes codedval="wa" count="2">Flute I, II</perfRes>
             <perfRes codedval="wd" count="2">Bassoon I, II</perfRes>
             <perfRes codedval="bc" count="2">Horn in F I,II</perfRes>
-            <perfRes codedval="wc" count="1" solo="true">principal Clarinet in A</perfRes>
+            <perfRes codedval="wc" count="1" solo="true">Clarinet in A</perfRes>
             <perfRes codedval="sa">Violins I, II</perfRes>
             <perfRes codedval="sb">Viola</perfRes>
             <perfRes codedval="sd">Violoncello &amp; Double Bass</perfRes>
           </perfResList>
         </perfMedium>
-        <!-- <classification>
+        <context type="period-of-music-history">Viennese Classic</context>
+        <classification>           
           <classCode
             auth.uri="http://www.dnb.de/SharedDocs/Downloads/DE/DNB/service/ddcSachgruppenDNB.html"
-            xml:id="DNB_Sachgruppen"/>
+            xml:id="DNB_Sachgruppen">Deutsche Nationalbibliothek</classCode>
           <termList>
             <term classCode="#DNB_Sachgruppen">03a Werke für Einzelinstrumente, Kammermusik</term>
-          </termList>
-        </classification>-->
-        <!--<incip>
-          <score><scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="3s" key.mode="major">
-            <staffGrp>
-              <staffGrp symbol="bracket">
-                <staffDef n="1" xml:id="P1" label="Flute I, II" label.abbr="Fl." lines="5"
-                  clef.line="2" clef.shape="G"/>
-                <staffDef n="2" xml:id="P2" label="Bassoon I, II" label.abbr="Bsn." lines="5"
-                  clef.line="4" clef.shape="F"/>
-              </staffGrp>
-              <staffGrp symbol="bracket">
-                <staffDef n="3" xml:id="P3" label="Horn in A (I, II)" label.abbr="A Hn." lines="5"
-                  clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
-              </staffGrp>
-              <staffDef n="4" xml:id="P4" label="Clarinet in A (solo)" label.abbr="Cl." lines="5"
-                clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
-              <staffGrp symbol="bracket">
-                <staffGrp symbol="line">
-                  <staffDef n="5" xml:id="P5" label="Violin I" label.abbr="Vln. I" lines="5"
-                    clef.line="2" clef.shape="G"/>
-                  <staffDef n="6" xml:id="P6" label="Violin II" label.abbr="Vln. II" lines="5"
-                    clef.line="2" clef.shape="G"/>
-                </staffGrp>
-                <staffDef n="7" xml:id="P7" label="Viola" label.abbr="Vla." lines="5" clef.line="3"
-                  clef.shape="C"/>
-                <staffDef n="8" xml:id="P8" label="Contrabass &amp; Violoncello"
-                  label.abbr="Cb. &amp; Vc." lines="5" clef.line="4" clef.shape="F" trans.semi="-12"
-                  trans.diat="0"/>
-              </staffGrp>
-            </staffGrp>
-          </scoreDef>          
-          <section>
-            <measure n="1" xml:id="d1e425">
-              <staff n="1">
-                <layer n="1">
-                  <mRest xml:id="d1e476" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="2">
-                <layer n="1">
-                  <mRest xml:id="d1e519" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="3">
-                <layer n="1">
-                  <mRest xml:id="d1e567" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="4">
-                <layer n="1">
-                  <note xml:id="d1e623" pname="g" oct="5" dur="2" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <note xml:id="d1e640" pname="e" oct="5" dur="4" dots="1" color="#000000"
-                    stem.dir="down" instr="P4-I1"/>
-                  <note xml:id="d1e660" pname="f" oct="5" dur="8" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                </layer>
-              </staff>
-              <staff n="5">
-                <layer n="1">
-                  <note xml:id="d1e738" pname="e" oct="5" dur="2" color="#000000" stem.dir="down"
-                    instr="P5-I1"/>
-                  <note xml:id="d1e755" pname="c" oct="5" dur="4" dots="1" color="#000000"
-                    stem.dir="down" accid.ges="s" instr="P5-I1"/>
-                  <note xml:id="d1e777" pname="d" oct="5" dur="8" color="#000000" stem.dir="down"
-                    instr="P5-I1"/>
-                </layer>
-              </staff>
-              <staff n="6">
-                <layer n="1">
-                  <note xml:id="d1e836" pname="c" oct="5" dur="2" color="#000000" stem.dir="down"
-                    accid.ges="s" instr="P6-I1"/>
-                  <note xml:id="d1e855" pname="a" oct="4" dur="4" dots="1" color="#000000"
-                    stem.dir="up" instr="P6-I1"/>
-                  <note xml:id="d1e875" pname="b" oct="4" dur="8" color="#000000" stem.dir="down"
-                    instr="P6-I1"/>
-                </layer>
-              </staff>
-              <staff n="7">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e934" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e953" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e972" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e991" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                  </beam>
-                  <beam>
-                    <note xml:id="d1e1010" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1029" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1048" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1067" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                  </beam>
-                </layer>
-              </staff>
-              <staff n="8">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e1133" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1152" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1171" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1190" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                  </beam>
-                  <beam>
-                    <note xml:id="d1e1209" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1228" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1247" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1266" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                  </beam>
-                </layer>
-              </staff>
-              <!-\-    <dir tstamp="1" startid="#d1e476" place="above" staff="1"
-                                                label="words">
-                                                <rend fontfam="Times New Roman" fontstyle="normal"
-                                                  halign="left" valign="middle">Allegro</rend>
-                                          </dir>-\->
-              <tempo tstamp="1" place="above" staff="1" mm.unit="4" mm="120"> Allegro <rend
-                fontfam="Times New Roman" fontstyle="normal" color="#000000"
-                >𝅘𝅥<!-\-[quarter]-\->=120</rend>
-              </tempo>
-              
-              <dynam tstamp="1" startid="#d1e623" place="below" staff="4">
-                <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
-              </dynam>
-              
-              <dynam tstamp="1" startid="#d1e738" place="below" staff="5">
-                <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
-              </dynam>
-              
-              <dynam tstamp="1" startid="#d1e836" place="below" staff="6">
-                <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
-              </dynam>
-              <dynam tstamp="1" startid="#d1e934" place="below" staff="7">
-                <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
-              </dynam>
-              <dynam tstamp="1" startid="#d1e1133" place="below" staff="8">
-                <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
-              </dynam>
-              <slur tstamp="3" startid="#d1e640" curvedir="above" tstamp2="0m+4.5" endid="#d1e660"
-                staff="4"/>
-              <slur tstamp="3" startid="#d1e755" curvedir="above" tstamp2="0m+4.5" endid="#d1e777"
-                staff="5"/>
-              <slur tstamp="3" startid="#d1e855" curvedir="above" tstamp2="0m+4.5" endid="#d1e875"
-                staff="6"/>
-            </measure>
-            <measure n="2" xml:id="d1e1285">
-              <staff n="1">
-                <layer n="1">
-                  <mRest xml:id="d1e1287" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="2">
-                <layer n="1">
-                  <mRest xml:id="d1e1299" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="3">
-                <layer n="1">
-                  <mRest xml:id="d1e1311" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="4">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e1323" pname="a" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P4-I1"/>
-                    <note xml:id="d1e1344" pname="g" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P4-I1"/>
-                    <note xml:id="d1e1365" pname="f" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P4-I1">
-                      <artic artic="stacc"/>
-                    </note>
-                    <note xml:id="d1e1387" pname="e" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P4-I1">
-                      <artic artic="stacc"/>
-                    </note>
-                  </beam>
-                  <note xml:id="d1e1409" pname="e" oct="5" dur="4" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <rest xml:id="d1e1426" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="5">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e1438" pname="f" oct="5" dur="8" color="#000000" stem.dir="down"
-                      accid.ges="s" instr="P5-I1"/>
-                    <note xml:id="d1e1461" pname="e" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P5-I1"/>
-                    <note xml:id="d1e1482" pname="d" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P5-I1">
-                      <artic artic="stacc"/>
-                    </note>
-                    <note xml:id="d1e1504" pname="c" oct="5" dur="8" color="#000000" stem.dir="down"
-                      accid.ges="s" instr="P5-I1">
-                      <artic artic="stacc"/>
-                    </note>
-                  </beam>
-                  <note xml:id="d1e1528" pname="c" oct="5" dur="4" color="#000000" stem.dir="down"
-                    accid.ges="s" instr="P5-I1"/>
-                  <rest xml:id="d1e1547" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="6">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e1559" pname="d" oct="5" dur="8" color="#000000" stem.dir="down"
-                      instr="P6-I1"/>
-                    <note xml:id="d1e1580" pname="c" oct="5" dur="8" color="#000000" stem.dir="down"
-                      accid.ges="s" instr="P6-I1"/>
-                    <note xml:id="d1e1603" pname="b" oct="4" dur="8" color="#000000" stem.dir="down"
-                      instr="P6-I1">
-                      <artic artic="stacc"/>
-                    </note>
-                    <note xml:id="d1e1625" pname="a" oct="4" dur="8" color="#000000" stem.dir="down"
-                      instr="P6-I1">
-                      <artic artic="stacc"/>
-                    </note>
-                  </beam>
-                  <note xml:id="d1e1647" pname="a" oct="4" dur="4" color="#000000" stem.dir="up"
-                    instr="P6-I1"/>
-                  <rest xml:id="d1e1664" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="7">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e1676" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1695" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1714" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1733" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                  </beam>
-                  <beam>
-                    <note xml:id="d1e1752" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1771" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1790" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                    <note xml:id="d1e1809" pname="a" oct="3" dur="8" color="#000000" stem.dir="up"
-                      instr="P7-I1"/>
-                  </beam>
-                </layer>
-              </staff>
-              <staff n="8">
-                <layer n="1">
-                  <beam>
-                    <note xml:id="d1e1829" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1848" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1867" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1886" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                  </beam>
-                  <beam>
-                    <note xml:id="d1e1905" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1924" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1943" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e1962" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                  </beam>
-                </layer>
-              </staff>
-              <slur tstamp="1" startid="#d1e1323" curvedir="above" tstamp2="0m+1.5" endid="#d1e1344"
-                staff="4"/>
-              <slur tstamp="1" startid="#d1e1438" curvedir="above" tstamp2="0m+1.5" endid="#d1e1461"
-                staff="5"/>
-              <slur tstamp="1" startid="#d1e1559" curvedir="above" tstamp2="0m+1.5" endid="#d1e1580"
-                staff="6"/>
-            </measure>
-            <measure n="3" xml:id="d1e1981">
-              <staff n="1">
-                <layer n="1">
-                  <mRest xml:id="d1e1983" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="2">
-                <layer n="1">
-                  <mRest xml:id="d1e1995" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="3">
-                <layer n="1">
-                  <mRest xml:id="d1e2007" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="4">
-                <layer n="1">
-                  <note xml:id="d1e2019" pname="f" oct="5" dur="4" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <note xml:id="d1e2038" pname="d" oct="5" dur="8" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <rest xml:id="d1e2057" dur="8"/>
-                  <note xml:id="d1e2068" pname="f" oct="5" dur="4" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <note xml:id="d1e2087" pname="d" oct="5" dur="8" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <rest xml:id="d1e2106" dur="8"/>
-                </layer>
-              </staff>
-              <staff n="5">
-                <layer n="1">
-                  <note xml:id="d1e2118" pname="d" oct="5" dur="4" color="#000000" stem.dir="down"
-                    instr="P5-I1"/>
-                  <note xml:id="d1e2137" pname="b" oct="4" dur="8" color="#000000" stem.dir="down"
-                    instr="P5-I1"/>
-                  <rest xml:id="d1e2156" dur="8"/>
-                  <note xml:id="d1e2167" pname="d" oct="5" dur="4" color="#000000" stem.dir="down"
-                    instr="P5-I1"/>
-                  <note xml:id="d1e2186" pname="b" oct="4" dur="8" color="#000000" stem.dir="down"
-                    instr="P5-I1"/>
-                  <rest xml:id="d1e2205" dur="8"/>
-                </layer>
-              </staff>
-              <staff n="6">
-                <layer n="1">
-                  <note xml:id="d1e2217" pname="f" oct="4" dur="4" color="#000000" stem.dir="up"
-                    accid.ges="s" instr="P6-I1"/>
-                  <note xml:id="d1e2238" pname="d" oct="4" dur="8" color="#000000" stem.dir="up"
-                    instr="P6-I1"/>
-                  <rest xml:id="d1e2257" dur="8"/>
-                  <note xml:id="d1e2268" pname="f" oct="4" dur="4" color="#000000" stem.dir="up"
-                    accid.ges="s" instr="P6-I1"/>
-                  <note xml:id="d1e2289" pname="d" oct="4" dur="8" color="#000000" stem.dir="up"
-                    instr="P6-I1"/>
-                  <rest xml:id="d1e2308" dur="8"/>
-                </layer>
-              </staff>
-              <staff n="7">
-                <layer n="1">
-                  <note xml:id="d1e2320" pname="b" oct="3" dur="4" color="#000000" stem.dir="up"
-                    instr="P7-I1"/>
-                  <rest xml:id="d1e2337" dur="4"/>
-                  <note xml:id="d1e2348" pname="b" oct="3" dur="4" color="#000000" stem.dir="up"
-                    instr="P7-I1"/>
-                  <rest xml:id="d1e2365" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="8">
-                <layer n="1">
-                  <note xml:id="d1e2377" pname="d" oct="3" dur="4" color="#000000" stem.dir="down"
-                    instr="P8-I1"/>
-                  <rest xml:id="d1e2394" dur="4"/>
-                  <note xml:id="d1e2405" pname="d" oct="3" dur="4" color="#000000" stem.dir="down"
-                    instr="P8-I1"/>
-                  <rest xml:id="d1e2422" dur="4"/>
-                </layer>
-              </staff>
-              <slur tstamp="1" startid="#d1e2019" curvedir="above" tstamp2="0m+2" endid="#d1e2038"
-                staff="4"/>
-              <slur tstamp="1" startid="#d1e2118" curvedir="above" tstamp2="0m+2" endid="#d1e2137"
-                staff="5"/>
-              <slur tstamp="1" startid="#d1e2217" curvedir="below" tstamp2="0m+2" endid="#d1e2238"
-                staff="6"/>
-              <slur tstamp="3" startid="#d1e2068" curvedir="above" tstamp2="0m+4" endid="#d1e2087"
-                staff="4"/>
-              <slur tstamp="3" startid="#d1e2167" curvedir="above" tstamp2="0m+4" endid="#d1e2186"
-                staff="5"/>
-              <slur tstamp="3" startid="#d1e2268" curvedir="below" tstamp2="0m+4" endid="#d1e2289"
-                staff="6"/>
-            </measure>
-            <measure n="4" xml:id="d1e2433">
-              <staff n="1">
-                <layer n="1">
-                  <mRest xml:id="d1e2435" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="2">
-                <layer n="1">
-                  <mRest xml:id="d1e2447" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="3">
-                <layer n="1">
-                  <mRest xml:id="d1e2459" dur="1"/>
-                </layer>
-              </staff>
-              <staff n="4">
-                <layer n="1">
-                  <note xml:id="d1e2471" pname="c" oct="5" dur="2" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <note xml:id="d1e2490" pname="b" oct="4" dur="8" color="#000000" stem.dir="down"
-                    instr="P4-I1"/>
-                  <rest xml:id="d1e2509" dur="8"/>
-                  <rest xml:id="d1e2520" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="5">
-                <layer n="1">
-                  <note xml:id="d1e2532" pname="a" oct="4" dur="2" color="#000000" stem.dir="up"
-                    instr="P5-I1"/>
-                  <note xml:id="d1e2551" pname="g" oct="4" dur="8" color="#000000" stem.dir="up"
-                    accid.ges="s" instr="P5-I1"/>
-                  <rest xml:id="d1e2572" dur="8"/>
-                  <rest xml:id="d1e2583" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="6">
-                <layer n="1">
-                  <note xml:id="d1e2595" pname="c" oct="4" dur="2" color="#000000" stem.dir="up"
-                    accid.ges="s" instr="P6-I1"/>
-                  <note xml:id="d1e2616" pname="b" oct="3" dur="8" color="#000000" stem.dir="up"
-                    instr="P6-I1"/>
-                  <rest xml:id="d1e2635" dur="8"/>
-                  <rest xml:id="d1e2646" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="7">
-                <layer n="1">
-                  <note xml:id="d1e2658" pname="e" oct="3" dur="2" color="#000000" tie="i"
-                    stem.dir="up" instr="P7-I1"/>
-                  <note xml:id="d1e2678" pname="e" oct="3" dur="8" color="#000000" tie="t"
-                    stem.dir="up" instr="P7-I1"/>
-                  <rest xml:id="d1e2698" dur="8"/>
-                  <rest xml:id="d1e2709" dur="4"/>
-                </layer>
-              </staff>
-              <staff n="8">
-                <layer n="1">
-                  <rest xml:id="d1e2721" dur="8"/>
-                  <beam>
-                    <note xml:id="d1e2732" pname="e" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e2751" pname="e" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e2770" pname="e" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                  </beam>
-                  <beam>
-                    <note xml:id="d1e2789" pname="e" oct="3" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e2808" pname="e" oct="4" dur="8" color="#000000" stem.dir="down"
-                      instr="P8-I1"/>
-                    <note xml:id="d1e2829" pname="d" accid="s" oct="4" dur="8" color="#000000"
-                      stem.dir="down" instr="P8-I1"/>
-                    <note xml:id="d1e2852" pname="d" accid="n" oct="4" dur="8" color="#000000"
-                      stem.dir="down" instr="P8-I1"/>
-                  </beam>
-                </layer>
-              </staff>
-              <slur tstamp="1" startid="#d1e2471" curvedir="above" tstamp2="0m+3" endid="#d1e2490"
-                staff="4"/>
-              <slur tstamp="1" startid="#d1e2532" curvedir="below" tstamp2="0m+3" endid="#d1e2551"
-                staff="5"/>
-              <slur tstamp="1" startid="#d1e2595" curvedir="below" tstamp2="0m+3" endid="#d1e2616"
-                staff="6"/>
-              <slur tstamp="3.5" startid="#d1e2808" curvedir="above" tstamp2="0m+4.5"
-                endid="#d1e2852" staff="8"/>
-            </measure>            
-          </section>
-          </score>                             
-        </incip>-->
+          </termList>         
+        </classification>         
+        
+      
+        
+               
       </work>
     </workDesc>
     <revisionDesc>
@@ -2299,7 +1934,7 @@
                   <note xml:id="d1e9047" pname="g" oct="4" dur="2" color="#000000" tie="i"
                     stem.dir="down" instr="P3-I1"/>
                   <note xml:id="d1e9067" pname="g" oct="4" dur="8" color="#000000" stem.dir="down"
-                    instr="P3-I1"/>
+                    instr="P3-I1" tie="t"/>
                   <space xml:id="d1e9084" dur="8"/>
                   <space xml:id="d1e9096" dur="4"/>
                 </layer>
@@ -4382,8 +4017,8 @@
                   <note xml:id="d1e22795" pname="b" oct="3" dur="4" color="#000000" stem.dir="down"
                     instr="P8-I1"/>
                   <rest xml:id="d1e22814" dur="8"/>
-                  <note xml:id="d1e22825" pname="a" oct="3" dur="8" color="#000000" tie="i"
-                    stem.dir="down" accid.ges="s" instr="P8-I1"/>
+                  <note xml:id="d1e22825" pname="a" oct="3" dur="8" color="#000000" stem.dir="down"
+                    accid.ges="s" instr="P8-I1"/>
                 </layer>
               </staff>
               <slur tstamp="1" startid="#d1e21193" curvedir="above" tstamp2="0m+1.25"
@@ -4398,8 +4033,6 @@
                 endid="#d1e21564" staff="2"/>
               <slur tstamp="2.5" startid="#d1e22668" curvedir="above" tstamp2="0m+3"
                 endid="#d1e22689" staff="7"/>
-              <slur tstamp="2.5" startid="#d1e22772" curvedir="above" tstamp2="0m+3"
-                endid="#d1e22795" staff="8"/>
               <slur tstamp="3" startid="#d1e21389" curvedir="above" tstamp2="0m+3.25"
                 endid="#d1e21412" staff="1"/>
               <slur tstamp="3" startid="#d1e21884" curvedir="above" tstamp2="0m+3.25"
@@ -4410,10 +4043,8 @@
                 endid="#d1e22539" staff="6"/>
               <slur tstamp="4.5" startid="#d1e21594" curvedir="above" tstamp2="1m+1"
                 endid="#d1e23211" staff="2"/>
-
-
-
-
+              <slur startid="#d1e22772" curvedir="above" endid="#d1e22795" staff="8"/>
+              <slur startid="#d1e22825" curvedir="above" endid="#d1e24512" staff="8"/>
             </measure>
             <measure n="22" xml:id="d1e22847">
               <staff n="1">
@@ -4663,8 +4294,9 @@
               <corr resp="#ao.spv">
                 <slur staff="7" startid="#d1e24492" endid="#d1e26533" curvedir="above"/>
               </corr>
-              <slur tstamp="4.5" startid="#d1e24590" curvedir="above" tstamp2="1m+1"
-                endid="#d1e26820" staff="8"/>
+              <corr  xml:id="corr-1"   cert="medium" evidence="internal"  hand="#ao.spv">
+                <slur startid="#d1e24590" curvedir="above" endid="#d1e26820" staff="8"/>
+              </corr>
               <slur staff="8" startid="#d1e24540" endid="#d1e24562" curvedir="above"/>
             </measure>
             <pb/>
