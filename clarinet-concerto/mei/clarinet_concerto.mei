@@ -11,14 +11,13 @@
         <title type="subordinate">an electronic transcription</title>
         <respStmt>
           <resp>composed by:</resp>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
-            codedval="118584596">Wolfgang Amadeus Mozart</persName>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118584596"
+            >Wolfgang Amadé Mozart</persName>
           <resp>Machine-readable transcription by: </resp>
-          <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd"
+          <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="1062767683"
+            >Alexey (Oleksii) Sapov </persName>
+          <persName role="editor" xml:id="ao.spv" auth="GND" auth.uri="http://d-nb.info/gnd"
             codedval="1062767683">Alexey (Oleksii) Sapov </persName>
-          <persName role="editor" xml:id="ao.spv" auth="GND"
-            auth.uri="http://d-nb.info/gnd" codedval="1062767683">Alexey (Oleksii) Sapov
-          </persName>
         </respStmt>
       </titleStmt>
       <pubStmt>
@@ -28,25 +27,28 @@
         <source n="1" type="digital-representation" xml:id="B-77">
           <identifier type="Verbund-ID-Nr.-Austria">AC02050330</identifier>
           <titleStmt>
-            <title auth="GND" auth.uri="http://d-nb.info" codedval="354096656">Konzert in
-              A für Klarinette und Orchester</title>
+            <title auth="GND" auth.uri="http://d-nb.info" codedval="354096656">Konzert in A für
+              Klarinette und Orchester</title>
             <title type="subordinate">KV 622</title>
             <title type="uniform">NMA V/14/4: Klarinettenkonzert</title>
             <respStmt>
               <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
-                codedval="118584596">Wolfgang Amadeus Mozart</persName>
+                codedval="118584596">Wolfgang Amadé Mozart</persName>
               <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="13438475X">Franz Giegling</persName>
             </respStmt>
           </titleStmt>
           <pubStmt>
             <publisher>
-              <corpName auth="GND" auth.uri=" http://d-nb.info/gnd" codedval="16186553-7">Bärenreiter-Verlag (Kassel u.a.)</corpName>
+              <corpName auth="GND" auth.uri=" http://d-nb.info/gnd" codedval="16186553-7"
+                >Bärenreiter-Verlag (Kassel u.a.)</corpName>
               <address>
                 <addrLine><geogName auth="TGN"
-                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431">Kassel</geogName></addrLine>
+                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431"
+                    >Kassel</geogName></addrLine>
                 <addrLine><geogName auth="TGN"
-                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084">Germany</geogName></addrLine>
+                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084"
+                    >Germany</geogName></addrLine>
               </address>
               <date>1977</date>
             </publisher>
@@ -68,21 +70,24 @@
                 <corpName role="publisher" auth="GND" auth.uri="	http://d-nb.info/gnd/37019-8"
                   codedval="37019-8">Mozarteum Foundation<address>
                     <addrLine>
-                      <geogName auth="TGN"
-                        auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7003256">Salzburg</geogName>
+                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn"
+                        codedval="7003256">Salzburg</geogName>
                     </addrLine>
                     <addrLine>
-                      <geogName auth="TGN"
-                        auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="1000062">Austria</geogName>
+                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn"
+                        codedval="1000062">Austria</geogName>
                     </addrLine>
                   </address>
                 </corpName>
                 <corpName role="cooperation partner" auth="GND"
-                  auth.uri="http://d-nb.info/dnbn/330242865" codedval="330242865">The Packard Humanities Institute<address>
+                  auth.uri="http://d-nb.info/dnbn/330242865" codedval="330242865">The Packard
+                  Humanities Institute<address>
                     <addrLine>
-                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="2012294">Los Altos (Calif.)</geogName></addrLine>
+                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn"
+                        codedval="2012294">Los Altos (Calif.)</geogName></addrLine>
                     <addrLine>
-                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7012149">United States</geogName>
+                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn"
+                        codedval="7012149">United States</geogName>
                     </addrLine>
                   </address>
                 </corpName>
@@ -97,11 +102,11 @@
         <source n="2" type="printed" xml:id="S-15">
           <identifier type="ISMN">979-0-001-20057-8</identifier>
           <titleStmt>
-            <title auth="GND" auth.uri="http://d-nb.info" codedval="1073136256">Concerto
-              for basset clarinet and orchestra in A major, KV 622</title>
+            <title auth="GND" auth.uri="http://d-nb.info" codedval="1073136256">Concerto for basset
+              clarinet and orchestra in A major, KV 622</title>
             <respStmt>
               <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
-                codedval="118584596">Wolfgang Amadeus Mozart</persName>
+                codedval="118584596">Wolfgang Amadé Mozart</persName>
               <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="123604338">Sabine Meyer</persName>
               <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd"
@@ -152,37 +157,46 @@
         </application>
       </appInfo>
       <editorialDecl>
-        <correction n="1" xml:id="h-corr-1" method="tags" corrlevel="medium" >
-          <p>A slur (id="#corr-1") was added</p>         
+        <correction n="1" xml:id="h-corr-1" method="tags" corrlevel="medium">
+          <p>A slur (id="#corr-1") was added</p>
         </correction>
         <normalization>
-          <p>There were several conflicts in syntax across MEI guidlines version 3.0, RNG-schema and
-            Verovio. Some features were not able to render (e.g. division into movements, ossia in
-            bar 204). Those were commented out with the purpose to resolve the issue in the future.
-          </p>
+          <p>Originally, the score was written in scorewriter program Sibelius. After exporting a
+            musicXML file two XSL stylesheets were applied. The final MEI file contained about 20%
+            of errors and was corrected manually. Some issues like such ambiguities of indicating
+            the placement of e. g. &lt;slur&gt; with both &lt;tstamp&gt; AND &lt;startid&gt; /
+            &lt;endid&gt; were not resolved due to time-consuming activity. Moreover, there were
+            several conflicts in syntax across MEI guidelines version 3.0, RNG-schema and Verovio.
+            Some features were not able to render (e.g. division into movements, ossia in bar 204).
+            Those issues were commented out.</p>
         </normalization>
       </editorialDecl>
       <projectDesc>
-        <p>The aim of the encoding was an exact reproduction of the edition by Franz Giegling, 1977.
-          Additional cadenzas by Meyer/Wehle are provided for a technical demonstration purpose only. This
-          section could be extended with other suggestions from these editors as well as with
-          cadenzas from earlier authors such as Stanislav Krticka, Jacque Ibert, Karlheinz
-          Stockchausen (cf. Lawson, 1996, pp. 75-76). Another option for a future digital edition
-          would be to merge the versions for basset- and soprano clarinets.</p>
+        <p>The aim of the current encoding was an exact reproduction of the second version.
+          Giegling's edition is based on 14 sources including (piecewise) autographs, prints,
+          copies, arrangements and one review. Alongside the score, he provides an index of
+          alternative readings ('Leseartenverzeichnis') with the reference to these sources in the
+          Critical Report. An implementing of this index could be an issue for further enhancement
+          of the encoding as well as merging of the versions for basset clarinet and clarinet in
+          A.</p>
+        <p>Additional cadenzas by Meyer/Wehle (bars 127, 315) are provided for technical
+          demonstration of choice possibilities only. This section could be extended with other
+          suggestions from these editors as well as with cadenzas from earlier authors such as
+          Stanislav Krticka, Jacque Ibert, Karlheinz Stockhausen, etc.</p>
       </projectDesc>
       <samplingDecl>
         <p>The encoding includes the first movement.</p>
       </samplingDecl>
     </encodingDesc>
     <workDesc>
-      <work n="1">             
+      <work n="1">
         <identifier type="Köchelverzeichnis">KV 622</identifier>
         <titleStmt>
-          <title type="uniform">Konzert in A für Klarinette und Orchester : KV 622</title>
+          <title type="uniform">Konzerte, Klar Orch, KV 622 </title>
           <respStmt>
             <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
-              codedval="118584596">Wolfgang Amadeus Mozart</persName>
-          </respStmt>          
+              codedval="118584596">Wolfgang Amadé Mozart</persName>
+          </respStmt>
         </titleStmt>
         <incip xml:id="incip" label="first-four-bars-of--the-clarinet-part">
           <score>
@@ -206,8 +220,8 @@
                   </layer>
                 </staff>
                 <tempo tstamp="1" place="above" staff="1" mm.unit="4" mm="120"> Allegro <rend
-                  fontfam="Times New Roman" fontstyle="normal" color="#000000"
-                  >�<!--[quarter]-->=120</rend>
+                    fontfam="Times New Roman" fontstyle="normal" color="#000000"
+                    >�<!--[quarter]-->=120</rend>
                 </tempo>
                 <dynam tstamp="1" startid="#i-m1-n1" place="below" staff="1">
                   <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
@@ -270,9 +284,9 @@
             </section>
           </score>
         </incip>
-        <key pname="a" mode="major">A Major</key>        
+        <key pname="a" mode="major">A Major</key>
         <meter count="4" unit="4"/>
-        <tempo>Allegro</tempo>   
+        <tempo>Allegro</tempo>
         <perfMedium>
           <perfResList>
             <perfRes codedval="wa" count="2">Flute I, II</perfRes>
@@ -285,14 +299,14 @@
           </perfResList>
         </perfMedium>
         <context type="period-of-music-history">Viennese Classic</context>
-        <classification>           
+        <classification>
           <classCode
             auth.uri="http://www.dnb.de/SharedDocs/Downloads/DE/DNB/service/ddcSachgruppenDNB.html"
             xml:id="DNB_Sachgruppen">Deutsche Nationalbibliothek</classCode>
           <termList>
             <term classCode="#DNB_Sachgruppen">03a Werke für Einzelinstrumente, Kammermusik</term>
-          </termList>         
-        </classification>                 
+          </termList>
+        </classification>
       </work>
     </workDesc>
     <revisionDesc>
@@ -323,7 +337,7 @@
         <p xml:id="m-26"> Concerto in A Major for Clarinet and Orchestra </p>
       </div>
       <div xml:id="m-27">
-        <p xml:id="m-28"> Wolfgang Amadeus Mozart </p>
+        <p xml:id="m-28"> Wolfgang Amadé Mozart </p>
       </div>
     </front>
     <body>
@@ -4282,7 +4296,7 @@
               <corr resp="#ao.spv">
                 <slur staff="7" startid="#d1e24492" endid="#d1e26533" curvedir="above"/>
               </corr>
-              <corr  xml:id="corr-1"   cert="medium" evidence="internal"  hand="#ao.spv">
+              <corr xml:id="corr-1" cert="medium" evidence="internal" hand="#ao.spv">
                 <slur startid="#d1e24590" curvedir="above" endid="#d1e26820" staff="8"/>
               </corr>
               <slur staff="8" startid="#d1e24540" endid="#d1e24562" curvedir="above"/>
@@ -39283,7 +39297,7 @@
               <staff n="1">
                 <layer n="1">
                   <note xml:id="d1e223714" pname="c" accid="n" oct="6" dur="1" color="#000000"
-                    stem.dir="up" instr="P1-I1"/>          
+                    stem.dir="up" instr="P1-I1"/>
                 </layer>
                 <layer n="2">
                   <note xml:id="d1e223747" pname="b" oct="5" dur="2" color="#000000" tie="t"
