@@ -1,4 +1,11 @@
-#help_overlay {
+  h1 {
+            margin-left:4em;
+            margin-top: 1.8em;
+            color:#560c1b;
+            }
+
+
+#help_overlay{
     position: fixed;
     bottom: 10px;
     left: 10px;
@@ -7,18 +14,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     z-index: 10000;
-    color: #fff;
+    color: #fff;  
 }
 
-#help_overlay p {
+#help_overlay p{
     padding: 0px;
     margin: 2px;
 }
 
-/*************************************/ 
-/* Choice overlay style for topic 09 */
-/*************************************/ 
- 
 #choice_overlay {
     position: fixed;
     display: none;
@@ -50,8 +53,8 @@
     border-top: 1px solid #aaa;
     padding-top: 10px;
 }
+.index_link{
+    color: #fff;
+    font-size: 1.3em;
+}
 
-.index_link {
- color:#4dff4d;
- }
- 
