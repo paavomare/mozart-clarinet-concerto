@@ -76,7 +76,7 @@
                                                 stem.dir="down" instr="P4-I1"/>
                                             <rest xml:id="d1e102875" dur="4"/>
                                         </orig>
-                                        <reg label="cadenza proposed by Giegling (1977)" xml:id="ch1r1" resp="B-77" >
+                                        <reg label="Giegling (1977)" xml:id="ch1r1" resp="B-77" >
                                             <note xml:id="d1e421" pname="c" oct="6" dur="4" dots="1" color="#000000"
                                                 stem.dir="down" instr="P1-I1"/>
                                             <note xml:id="d1e442" pname="b" oct="5" dur="8" color="#000000"
@@ -105,7 +105,7 @@
                                             <rest xml:id="d1e667" dur="8"/>
                                         </reg>
                                         
-                                        <reg label="cadenza proposed by Meyer/Wehle (2015)" xml:id="ch1r2" resp="S-15">
+                                        <reg label="Meyer/Wehle (2015)" xml:id="ch1r2" resp="S-15">
                                             <note xml:id="d1e1373" pname="c" oct="6" dur="4" dots="1" color="#000000"
                                                 stem.dir="down" instr="P1-I1"/>
                                             <beam>

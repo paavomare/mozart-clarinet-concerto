@@ -11,13 +11,13 @@
         <title type="subordinate">an electronic transcription</title>
         <respStmt>
           <resp>composed by:</resp>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/118584596"
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
             codedval="118584596">Wolfgang Amadeus Mozart</persName>
           <resp>Machine-readable transcription by: </resp>
-          <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd/1062767683"
+          <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd"
             codedval="1062767683">Alexey (Oleksii) Sapov </persName>
           <persName role="editor" xml:id="ao.spv" auth="GND"
-            auth.uri="http://d-nb.info/gnd/1062767683" codedval="1062767683">Alexey (Oleksii) Sapov
+            auth.uri="http://d-nb.info/gnd" codedval="1062767683">Alexey (Oleksii) Sapov
           </persName>
         </respStmt>
       </titleStmt>
@@ -25,31 +25,28 @@
         <unpub/>
       </pubStmt>
       <sourceDesc>
-        <source n="1" type="digital-representation" label="B-77">
+        <source n="1" type="digital-representation" xml:id="B-77">
           <identifier type="Verbund-ID-Nr.-Austria">AC02050330</identifier>
           <titleStmt>
-            <title auth="GND" auth.uri="http://d-nb.info/354096656" codedval="354096656">Konzert in
+            <title auth="GND" auth.uri="http://d-nb.info" codedval="354096656">Konzert in
               A für Klarinette und Orchester</title>
             <title type="subordinate">KV 622</title>
             <title type="uniform">NMA V/14/4: Klarinettenkonzert</title>
             <respStmt>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/118584596"
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="118584596">Wolfgang Amadeus Mozart</persName>
-              <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/13438475X"
+              <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="13438475X">Franz Giegling</persName>
             </respStmt>
           </titleStmt>
           <pubStmt>
             <publisher>
-              <corpName auth="GND" auth.uri=" http://d-nb.info/gnd/16186553-7" codedval="16186553-7"
-                >Bärenreiter-Verlag (Kassel u.a.)</corpName>
+              <corpName auth="GND" auth.uri=" http://d-nb.info/gnd" codedval="16186553-7">Bärenreiter-Verlag (Kassel u.a.)</corpName>
               <address>
                 <addrLine><geogName auth="TGN"
-                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431"
-                    >Kassel</geogName></addrLine>
+                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431">Kassel</geogName></addrLine>
                 <addrLine><geogName auth="TGN"
-                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084"
-                    >Germany</geogName></addrLine>
+                    auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084">Germany</geogName></addrLine>
               </address>
               <date>1977</date>
             </publisher>
@@ -65,28 +62,27 @@
               mehrere Streich-, Blas- und Zupfinstrumente und Orchester</title>
             <title type="subordinate">Bd. 4. Klarinettenkonzert : (KV 622) (Partitur ed.)</title>
             <seriesStmt>
-              <title>Digital Mozart Edition <date>2006</date>
+              <title>Internationale Stiftung Mozarteum, Online Publications <date>2006</date>
               </title>
               <respStmt>
                 <corpName role="publisher" auth="GND" auth.uri="	http://d-nb.info/gnd/37019-8"
                   codedval="37019-8">Mozarteum Foundation<address>
-                    <addrLine><geogName auth="TGN"
-                        auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7003256"
-                        >Salzburg</geogName></addrLine>
-                    <addrLine><geogName auth="TGN"
-                        auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="1000062"
-                        >Austria</geogName></addrLine>
+                    <addrLine>
+                      <geogName auth="TGN"
+                        auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7003256">Salzburg</geogName>
+                    </addrLine>
+                    <addrLine>
+                      <geogName auth="TGN"
+                        auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="1000062">Austria</geogName>
+                    </addrLine>
                   </address>
                 </corpName>
                 <corpName role="cooperation partner" auth="GND"
-                  auth.uri="http://d-nb.info/dnbn/330242865" codedval="330242865">The Packard
-                  Humanities Institute<address>
+                  auth.uri="http://d-nb.info/dnbn/330242865" codedval="330242865">The Packard Humanities Institute<address>
                     <addrLine>
-                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn"
-                        codedval="2012294">Los Altos (Calif.)</geogName></addrLine>
+                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="2012294">Los Altos (Calif.)</geogName></addrLine>
                     <addrLine>
-                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn"
-                        codedval="7012149">United States</geogName>
+                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7012149">United States</geogName>
                     </addrLine>
                   </address>
                 </corpName>
@@ -98,24 +94,24 @@
             <language>English</language>
           </langUsage>
         </source>
-        <source n="2" type="printed" label="S-15">
+        <source n="2" type="printed" xml:id="S-15">
           <identifier type="ISMN">979-0-001-20057-8</identifier>
           <titleStmt>
-            <title auth="GND" auth.uri="http://d-nb.info/1073136256" codedval="1073136256">Concerto
+            <title auth="GND" auth.uri="http://d-nb.info" codedval="1073136256">Concerto
               for basset clarinet and orchestra in A major, KV 622</title>
             <respStmt>
-              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/118584596"
+              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="118584596">Wolfgang Amadeus Mozart</persName>
-              <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/123604338"
+              <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="123604338">Sabine Meyer</persName>
-              <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/132803526"
+              <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd"
                 codedval="132803526">Reiner Wehle</persName>
             </respStmt>
           </titleStmt>
           <pubStmt>
 
             <respStmt>
-              <corpName auth="GND" auth.uri="http://d-nb.info/dnbn/330009052" codedval="330009052">Schott<address>
+              <corpName auth="GND" auth.uri="http://d-nb.info/dnbn" codedval="330009052">Schott<address>
                   <addrLine><geogName auth="TGN"
                       auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7017990"
                       >Mainz</geogName></addrLine>
@@ -184,7 +180,7 @@
         <titleStmt>
           <title type="uniform">Konzert in A für Klarinette und Orchester : KV 622</title>
           <respStmt>
-            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd/118584596"
+            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
               codedval="118584596">Wolfgang Amadeus Mozart</persName>
           </respStmt>          
         </titleStmt>
@@ -296,11 +292,7 @@
           <termList>
             <term classCode="#DNB_Sachgruppen">03a Werke für Einzelinstrumente, Kammermusik</term>
           </termList>         
-        </classification>         
-        
-      
-        
-               
+        </classification>                 
       </work>
     </workDesc>
     <revisionDesc>
@@ -463,11 +455,7 @@
                   </beam>
                 </layer>
               </staff>
-              <!--    <dir tstamp="1" startid="#d1e476" place="above" staff="1"
-                                                label="words">
-                                                <rend fontfam="Times New Roman" fontstyle="normal"
-                                                  halign="left" valign="middle">Allegro</rend>
-                                          </dir>-->
+
               <tempo tstamp="1" place="above" staff="1" mm.unit="4" mm="120"> Allegro <rend
                   fontfam="Times New Roman" fontstyle="normal" color="#000000"
                   >𝅘𝅥<!--[quarter]-->=120</rend>
@@ -4848,7 +4836,7 @@
                 <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
               </dynam>
               <dir startid="#d1e28134" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="justify" valign="bottom"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="justify" valign="bottom"
                   >Violoncello</rend>
               </dir>
             </measure>
@@ -5683,7 +5671,7 @@
                 <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">f</rend>
               </dynam>
               <dir tstamp="1.25" startid="#d1e32432" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend>
               </dir>
               <slur tstamp="3" startid="#d1e31729" curvedir="above" tstamp2="0m+4.75"
@@ -15629,7 +15617,7 @@
               <slur tstamp="1" startid="#d1e89465" curvedir="above" tstamp2="0m+2.5"
                 endid="#d1e89524" staff="4"/>
               <dir tstamp="1" startid="#d1e89797" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <dynam tstamp="2.5" startid="#d1e89797" place="below" staff="8">
@@ -15748,7 +15736,7 @@
               <slur tstamp="3" startid="#d1e90427" curvedir="above" tstamp2="1m+1" endid="#d1e91030"
                 staff="7"/>
               <dir tstamp="3" startid="#d1e90519" place="below" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Contrabass</rend>
               </dir>
               <dynam tstamp="3" startid="#d1e90494" place="below" staff="8">
@@ -15891,7 +15879,7 @@
               <slur tstamp="2" startid="#d1e90618" curvedir="above" tstamp2="0m+4" endid="#d1e90680"
                 staff="4"/>
               <dir tstamp="3" startid="#d1e91213" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend>
               </dir>
             </measure>
@@ -16336,7 +16324,7 @@
               <slur tstamp="2.5" startid="#d1e93763" curvedir="below" tstamp2="0m+3"
                 endid="#d1e93784" staff="7"/>
               <dir tstamp="2.5" startid="#d1e93884" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="2.5" startid="#d1e93884" curvedir="above" tstamp2="0m+3"
@@ -16699,7 +16687,7 @@
               <slur tstamp="1" startid="#d1e95976" curvedir="below" tstamp2="1m+1" endid="#d1e96498"
                 staff="8"/>
               <dir tstamp="1.25" startid="#d1e95976" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend>
               </dir>
             </measure>
@@ -16791,7 +16779,7 @@
               <slur tstamp="4" startid="#d1e96464" curvedir="below" tstamp2="1m+1" endid="#d1e96882"
                 staff="7"/>
               <dir tstamp="4" startid="#d1e96549" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="justify" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="justify" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="4" startid="#d1e96549" curvedir="above" tstamp2="1m+1" endid="#d1e96924"
@@ -17786,7 +17774,7 @@
               <slur tstamp="1" startid="#d1e101348" curvedir="below" tstamp2="0m+3"
                 endid="#d1e101367" staff="6"/>
               <dir tstamp="1" startid="#d1e101468" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="1" startid="#d1e101468" curvedir="above" tstamp2="0m+3"
@@ -18008,7 +17996,7 @@
                 </layer>
               </staff>
               <dir tstamp="2" startid="#d1e102673" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="justify" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="justify" valign="middle"
                   >Basses tutti</rend>
               </dir>
             </measure>
@@ -18231,7 +18219,7 @@
                 <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
               </dynam>
               <dir tstamp="1" startid="#d1e103344" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="justify" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="justify" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="3" startid="#d1e103198" curvedir="below" tstamp2="0m+4.5"
@@ -18702,7 +18690,7 @@
               <slur tstamp="1" startid="#d1e105165" curvedir="above" tstamp2="0m+1.5"
                 endid="#d1e105186" staff="4"/>
               <dir tstamp="3" startid="#d1e105603" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="justify" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="justify" valign="middle"
                   >Basses tutti</rend>
               </dir>
               <slur tstamp="3.5" startid="#d1e105293" curvedir="below" tstamp2="0m+4.5"
@@ -28594,7 +28582,7 @@
               <slur tstamp="1" startid="#d1e163284" curvedir="above" tstamp2="1m+1"
                 endid="#d1e163779" staff="7"/>
               <dir tstamp="2" startid="#d1e163325" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="3" startid="#d1e162827" curvedir="above" tstamp2="0m+4.832"
@@ -28794,7 +28782,7 @@
               <slur tstamp="1" startid="#d1e164451" curvedir="above" tstamp2="1m+1"
                 endid="#d1e165023" staff="7"/>
               <dir tstamp="2" startid="#d1e164502" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend>
               </dir>
               <slur tstamp="3" startid="#d1e163981" curvedir="above" tstamp2="0m+4.832"
@@ -31464,7 +31452,7 @@
                 <rend fontfam="Opus Text Std" fontstyle="normal" color="#000000">p</rend>
               </dynam>
               <dir tstamp="1" startid="#d1e179142" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="top"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="top"
                   >Violoncello</rend>
               </dir>
               <dir tstamp="3" startid="#d1e178363" place="above" staff="2" label="words">
@@ -31646,7 +31634,7 @@
               <slur tstamp="1" startid="#d1e179832" curvedir="above" tstamp2="0m+4"
                 endid="#d1e179854" staff="7"/>
               <dir tstamp="1" startid="#d1e179931" place="below" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Contrabass</rend>
               </dir>
               <slur tstamp="1" startid="#d1e179882" curvedir="above" tstamp2="0m+3"
@@ -32872,6 +32860,10 @@
                 endid="#d1e186618" staff="7"/>
               <slur tstamp="1" startid="#d1e186638" curvedir="above" tstamp2="0m+3"
                 endid="#d1e186659" staff="8"/>
+              <dir startid="#d1e186685" place="below" staff="8" label="words">
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
+                  >Contrabass</rend>
+              </dir>
             </measure>
             <pb/>
             <measure n="237" xml:id="d1e186700">
@@ -39291,8 +39283,7 @@
               <staff n="1">
                 <layer n="1">
                   <note xml:id="d1e223714" pname="c" accid="n" oct="6" dur="1" color="#000000"
-                    stem.dir="up" instr="P1-I1"/>
-                  <rest xml:id="d1e223733" dur="2"/>
+                    stem.dir="up" instr="P1-I1"/>          
                 </layer>
                 <layer n="2">
                   <note xml:id="d1e223747" pname="b" oct="5" dur="2" color="#000000" tie="t"
@@ -40178,7 +40169,7 @@
               <slur tstamp="3" startid="#d1e228677" curvedir="below" tstamp2="1m+1"
                 endid="#d1e229247" staff="7"/>
               <dir tstamp="3" startid="#d1e228724" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <dynam tstamp="3" startid="#d1e228724" place="below" staff="8">
@@ -40291,8 +40282,8 @@
               </staff>
               <slur tstamp="1" startid="#d1e228781" curvedir="above" tstamp2="0m+2.75"
                 endid="#d1e228936" staff="4"/>
-              <dir tstamp="3" startid="#d1e229341" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+              <dir tstamp="3" startid="#d1e229341" place="below" staff="8" label="words">
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Contrabass</rend>
               </dir>
               <dynam tstamp="3" startid="#d1e229341" place="below" staff="8">
@@ -40429,9 +40420,8 @@
               <slur tstamp="2" startid="#d1e229498" curvedir="above" tstamp2="0m+4"
                 endid="#d1e229560" staff="4"/>
               <dir tstamp="3" startid="#d1e230149" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend></dir>
-
             </measure>
             <measure n="293" xml:id="d1e230221">
               <staff n="1">
@@ -41287,7 +41277,7 @@
               <slur tstamp="4" startid="#d1e235150" curvedir="below" tstamp2="1m+1"
                 endid="#d1e235620" staff="7"/>
               <dir tstamp="4" startid="#d1e235202" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="4" startid="#d1e235202" curvedir="above" tstamp2="1m+1"
@@ -41772,7 +41762,7 @@
               <slur tstamp="3" startid="#d1e237522" curvedir="below" tstamp2="1m+3"
                 endid="#d1e238066" staff="7"/>
               <dir tstamp="3" startid="#d1e237563" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend>
               </dir>
               <slur tstamp="3" startid="#d1e237563" curvedir="above" tstamp2="1m+3"
@@ -42176,7 +42166,7 @@
               <slur tstamp="3" startid="#d1e239647" curvedir="above" tstamp2="1m+3"
                 endid="#d1e240036" staff="7"/>
               <dir tstamp="3" startid="#d1e239688" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Violoncello</rend>
               </dir>
               <slur tstamp="3.5" startid="#d1e239463" curvedir="below" tstamp2="0m+4.5"
@@ -42465,7 +42455,7 @@
               <slur tstamp="1" startid="#d1e241067" curvedir="below" tstamp2="0m+3"
                 endid="#d1e241086" staff="5"/>
               <dir tstamp="1" startid="#d1e241267" place="above" staff="8" label="words">
-                <rend fontfam="Times New Roman" fontstyle="normal" halign="left" valign="middle"
+                <rend fontfam="Times New Roman" fontstyle="italic" halign="left" valign="middle"
                   >Basses tutti</rend>
               </dir>
               <slur tstamp="1" startid="#d1e241267" curvedir="above" tstamp2="0m+3"
