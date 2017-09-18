@@ -7,7 +7,7 @@
       <titleStmt>
         <title>Concerto in A Major for Clarinet and Orchestra</title>
         <title type="subordinate">KV 622</title>
-        <title type="subordinate">traditional version for soprano clarinet</title>
+        <title type="subordinate">traditional version for clarinet in A</title>
         <title type="subordinate">an electronic transcription</title>
         <respStmt>
           <resp>composed by:</resp>
@@ -24,7 +24,7 @@
         <unpub/>
       </pubStmt>
       <sourceDesc>
-        <source n="1" type="digital-representation" xml:id="B-77">
+        <source n="1" xml:id="B-77" type="digital-representation">
           <identifier type="Verbund-ID-Nr.-Austria">AC02050330</identifier>
           <titleStmt>
             <title auth="GND" auth.uri="http://d-nb.info" codedval="354096656">Konzert in A für
@@ -41,7 +41,7 @@
           <pubStmt>
             <publisher>
               <corpName auth="GND" auth.uri=" http://d-nb.info/gnd" codedval="16186553-7"
-                >Bärenreiter-Verlag (Kassel u.a.)</corpName>
+                >Bärenreiter-Verlag</corpName>
               <address>
                 <addrLine><geogName auth="TGN"
                     auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431"
@@ -58,8 +58,8 @@
             </availability>
           </pubStmt>
           <seriesStmt>
-            <title>Neue Ausgabe sämtlicher Werke : In Verbindung mit den Mozartstädten Augsburg,
-              Salzburg und Wien.</title>
+            <title>Wolfgang Amadeus Mozart. Neue Ausgabe sämtlicher Werke : In Verbindung mit den
+              Mozartstädten Augsburg, Salzburg und Wien.</title>
             <title type="subordinate">Serie 5, Konzerte : Werkgruppe 14, Konzerte für ein oder
               mehrere Streich-, Blas- und Zupfinstrumente und Orchester</title>
             <title type="subordinate">Bd. 4. Klarinettenkonzert : (KV 622) (Partitur ed.)</title>
@@ -114,7 +114,6 @@
             </respStmt>
           </titleStmt>
           <pubStmt>
-
             <respStmt>
               <corpName auth="GND" auth.uri="http://d-nb.info/dnbn" codedval="330009052">Schott<address>
                   <addrLine><geogName auth="TGN"
@@ -157,32 +156,35 @@
         </application>
       </appInfo>
       <editorialDecl>
-        <correction n="1" xml:id="h-corr-1" method="tags" corrlevel="medium">
-          <p>A slur (id="#corr-1") was added</p>
-        </correction>
         <normalization>
-          <p>Originally, the score was written in scorewriter program Sibelius. After exporting a
-            musicXML file two XSL stylesheets were applied. The final MEI file contained about 20%
-            of errors and was corrected manually. Some issues like such ambiguities of indicating
-            the placement of e. g. &lt;slur&gt; with both &lt;tstamp&gt; AND &lt;startid&gt; /
-            &lt;endid&gt; were not resolved due to time-consuming activity. Moreover, there were
-            several conflicts in syntax across MEI guidelines version 3.0, RNG-schema and Verovio.
-            Some features were not able to render (e.g. division into movements, ossia in bar 204).
-            Those issues were commented out.</p>
+          <p>First, a score of the Concerto was written in scorewriter program Sibelius. After
+            exporting a musicXML file, two XSL stylesheets were applied. The final MEI file
+            contained about 20% of errors and was corrected manually. Some issues like e. g. such
+            ambiguities in placement of &lt;slur&gt; with both @tstamp AND @startid/ @endid were not
+            resolved due to time-consuming activity and as they don't affect rendering.</p>
+          <p>There were several conflicts in syntax of MEI guidelines version 3.0, RNG-schema and
+            Verovio. Some features were not able to render (e. g. division into movements, ossia in
+            the bar 204). Those issues were commented out.</p>
+          <p>In the reference score violoncellos and contrabasses were split into separate staffs
+            from measure 227 to measure 240. In this encoding they stay on the same staff, but
+            placed onto separate layers with additional labels. The reason was the technical problem
+            of rendering the additonal staff only in one segment of the score. However, this
+            solution doesn't seem to affect its readability. In the future it should be checked if
+            Giegling had any important reason for this layout.</p>
         </normalization>
       </editorialDecl>
       <projectDesc>
-        <p>The aim of the current encoding was an exact reproduction of the second version.
-          Giegling's edition is based on 14 sources including (piecewise) autographs, prints,
-          copies, arrangements and one review. Alongside the score, he provides an index of
-          alternative readings ('Leseartenverzeichnis') with the reference to these sources in the
-          Critical Report. An implementing of this index could be an issue for further enhancement
-          of the encoding as well as merging of the versions for basset clarinet and clarinet in
-          A.</p>
-        <p>Additional cadenzas by Meyer/Wehle (bars 127, 315) are provided for technical
-          demonstration of choice possibilities only. This section could be extended with other
-          suggestions from these editors as well as with cadenzas from earlier authors such as
-          Stanislav Krticka, Jacque Ibert, Karlheinz Stockhausen, etc.</p>
+        <p>The aim of the current encoding was an exact reproduction of the sore of traditional
+          version for clarinet in A by <ref target="#B-77">Franz Giegling</ref>. This edition is
+          based on 14 sources including (piecewise) autographs, prints, copies, arrangements and one
+          review. In the Critical Report the editor provides an index of alternative readings
+          ('Leseartenverzeichnis') with the reference to these sources. An implementing of this
+          index could be an issue for further enhancement of the encoding as well as merging of the
+          versions for basset clarinet and clarinet in A.</p>
+        <p>Additional cadenzas by <ref target="#S-15">Meyer/Wehle</ref> in bars 127 and 315 are
+          provided for technical demonstration of choice possibilities only. However, this section could be
+          extended with other suggestions from these clarinetists as well as with cadenzas from earlier
+          authors such as Stanislav Krticka, Jacque Ibert, Karlheinz Stockhausen, etc.</p>
       </projectDesc>
       <samplingDecl>
         <p>The encoding includes the first movement.</p>
@@ -198,7 +200,7 @@
               codedval="118584596">Wolfgang Amadé Mozart</persName>
           </respStmt>
         </titleStmt>
-        <incip xml:id="incip" label="first-four-bars-of--the-clarinet-part">
+        <incip xml:id="incip" label="first-four-bars-of-the-clarinet-part">
           <score>
             <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="3s"
               key.mode="major">
@@ -334,15 +336,15 @@
     <front xml:id="front">
       <pb xml:id="m-24" n="1"/>
       <div xml:id="m-25">
-        <p xml:id="m-26"> Concerto in A Major for Clarinet and Orchestra </p>
+        <p xml:id="m-26">Concerto in A Major for Clarinet and Orchestra</p>
       </div>
       <div xml:id="m-27">
-        <p xml:id="m-28"> Wolfgang Amadé Mozart </p>
+        <p xml:id="m-28">Wolfgang Amadé Mozart</p>
       </div>
     </front>
     <body>
       <mdiv type="solo_concerto">
-        <!--<mdiv n="1" type="movement"> was not able to render-->
+        <!--<mdiv n="1" type="movement">-->
         <score>
           <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="3s" key.mode="major">
             <staffGrp>
