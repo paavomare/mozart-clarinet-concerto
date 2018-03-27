@@ -1,0 +1,71 @@
+/** For highlightening the tr's of the results tables in IE
+* this is a hack for IEs only, cause rest of the world understands tr.hover!
+* @author franz kelnreiter
+* @since  2005-02-24
+* 
+* based on an idea of: Steve Stchur (http://aspnet.4guysfromrolla.com/articles/021605-1.aspx)
+*/
+function startHighlight() {
+    if (document.all && document.getElementsByName) {
+	  /**********************************************************************
+	  unfortunately we have sometimes more than one table with the 'rslt' id!
+	  following hack does the trick even if we have more tables with the 
+	  'id' nodeValue 'rslt'!!!
+	  **********************************************************************/
+    var domTable = document.getElementsByTagName("table");
+    //alert(domTable.length);
+	for (j = 0;j < domTable.length;j++){
+        if (domTable[j].attributes["id"] && domTable[j].attributes["id"].nodeValue == "rslt"){
+			//rem Get a reference to the TBODY element 
+			// support for multiple tbody-elements (alf scherer)
+			for (k=0; k < domTable[j].childNodes.length; k++) {
+              var tbody = domTable[j].childNodes[k];
+
+              for (i = 0; i < tbody.childNodes.length; i++) {
+                var node = tbody.childNodes[i];
+                if (node.nodeName == "TR") {
+                    node.onmouseover=function()
+						{
+							this.className = "over";                
+						}
+              
+                    node.onmouseout=function()
+						{
+							this.className = this.className.replace("over", "");
+						}
+                } //end if
+              } //end for
+            } //end for
+           } //end if
+         } // end for
+   	  } //end if
+ } //end function
+
+      /** clicking on any point in a row in nma_toc should open the score page
+      *
+      */
+function activateLink(linkName,level) {
+    var url;
+	for  (i=0; i < document.links.length; i++)
+		if (document.links[i].id==linkName){
+            url=document.links[i];
+            switch(level){
+            case 1:
+                //alert(url);
+                document.location.replace(url);
+                //parent.openLightRoom(url);
+                break;
+            default:
+                //alert(url);
+                if(parent && typeof parent.openLightRoom != "undefined")
+                {
+                    parent.openLightRoom(url);
+                }
+                else
+                {
+                    document.location.replace(url);
+                }
+            }
+			return;
+		}
+}
