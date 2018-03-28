@@ -10,36 +10,36 @@
                         <title type="subordinate">an electronic transcription</title>
                         <respStmt>
                               <resp>composed by:</resp>
-                              <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
+                              <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
                               <resp>Machine-readable transcription by: </resp>
-                              <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="1062767683">Alexey (Oleksii) Sapov </persName>
-                              <persName role="editor" xml:id="ao.spv" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="1062767683">Alexey (Oleksii) Sapov </persName>
+                              <persName role="encoder" authority="GND" authURI="http://d-nb.info/gnd" codedval="1062767683">Oleksii (Oleksii) Sapov </persName>
+                              <persName role="editor" xml:id="ao.spv" authority="GND" authURI="http://d-nb.info/gnd" codedval="1062767683">Oleksii (Oleksii) Sapov </persName>
                         </respStmt>
                   </titleStmt>
                   <pubStmt>
                         <unpub/>
                   </pubStmt>
                   <sourceDesc>
-                        <source n="1" xml:id="B-77" type="digital-representation">
+                        <source n="1" xml:id="B-77" >
                               <identifier type="Verbund-ID-Nr.-Austria">AC02050330</identifier>
                               <titleStmt>
-                                    <title auth="GND" auth.uri="http://d-nb.info" codedval="354096656">Konzert in A für Klarinette und Orchester</title>
+                                    <title authority="GND" authURI="http://d-nb.info" codedval="354096656">Konzert in A für Klarinette und Orchester</title>
                                     <title type="subordinate">KV 622</title>
                                     <title type="uniform">NMA V/14/4: Klarinettenkonzert</title>
                                     <respStmt>
-                                          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
-                                          <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="13438475X">Franz Giegling</persName>
+                                          <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
+                                          <persName role="editor" authority="GND" authURI="http://d-nb.info/gnd" codedval="13438475X">Franz Giegling</persName>
                                     </respStmt>
                               </titleStmt>
                               <pubStmt>
                                     <publisher>
-                                          <corpName auth="GND" auth.uri=" http://d-nb.info/gnd" codedval="16186553-7">Bärenreiter-Verlag</corpName>
+                                          <corpName authority="GND" authURI=" http://d-nb.info/gnd" codedval="16186553-7">Bärenreiter-Verlag</corpName>
                                           <address>
                                                 <addrLine>
-                                                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431">Kassel</geogName>
+                                                      <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="7004431">Kassel</geogName>
                                                 </addrLine>
                                                 <addrLine>
-                                                      <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084">Germany</geogName>
+                                                      <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084">Germany</geogName>
                                                 </addrLine>
                                           </address>
                                           <date>1977</date>
@@ -57,21 +57,21 @@
                                           <title>Internationale Stiftung Mozarteum, Online Publications <date>2006</date>
                                           </title>
                                           <respStmt>
-                                                <corpName role="publisher" auth="GND" auth.uri=" http://d-nb.info/gnd/37019-8" codedval="37019-8">Mozarteum Foundation<address>
+                                                <corpName role="publisher" authority="GND" authURI=" http://d-nb.info/gnd/37019-8" codedval="37019-8">Mozarteum Foundation<address>
                                                             <addrLine>
-                                                                  <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7003256">Salzburg</geogName>
+                                                                  <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="7003256">Salzburg</geogName>
                                                             </addrLine>
                                                             <addrLine>
-                                                                  <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="1000062">Austria</geogName>
+                                                                  <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="1000062">Austria</geogName>
                                                             </addrLine>
                                                       </address>
                                                 </corpName>
-                                                <corpName role="cooperation partner" auth="GND" auth.uri="http://d-nb.info/dnbn/330242865" codedval="330242865">The Packard Humanities Institute<address>
+                                                <corpName role="cooperation partner" authority="GND" authURI="http://d-nb.info/dnbn/330242865" codedval="330242865">The Packard Humanities Institute<address>
                                                             <addrLine>
-                                                                  <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="2012294">Los Altos (Calif.)</geogName>
+                                                                  <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="2012294">Los Altos (Calif.)</geogName>
                                                             </addrLine>
                                                             <addrLine>
-                                                                  <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7012149">United States</geogName>
+                                                                  <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="7012149">United States</geogName>
                                                             </addrLine>
                                                       </address>
                                                 </corpName>
@@ -83,24 +83,24 @@
                                     <language>English</language>
                               </langUsage>
                         </source>
-                        <source n="2" type="printed" xml:id="S-15">
+                        <source n="2" xml:id="S-15">
                               <identifier type="ISMN">979-0-001-20057-8</identifier>
                               <titleStmt>
-                                    <title auth="GND" auth.uri="http://d-nb.info" codedval="1073136256">Concerto for basset clarinet and orchestra in A major, KV 622</title>
+                                    <title authority="GND" authURI="http://d-nb.info" codedval="1073136256">Concerto for basset clarinet and orchestra in A major, KV 622</title>
                                     <respStmt>
-                                          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
-                                          <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="123604338">Sabine Meyer</persName>
-                                          <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="132803526">Reiner Wehle</persName>
+                                          <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
+                                          <persName role="editor" authority="GND" authURI="http://d-nb.info/gnd" codedval="123604338">Sabine Meyer</persName>
+                                          <persName role="editor" authority="GND" authURI="http://d-nb.info/gnd" codedval="132803526">Reiner Wehle</persName>
                                     </respStmt>
                               </titleStmt>
                               <pubStmt>
                                     <respStmt>
-                                          <corpName auth="GND" auth.uri="http://d-nb.info/dnbn" codedval="330009052">Schott<address>
+                                          <corpName authority="GND" authURI="http://d-nb.info/dnbn" codedval="330009052">Schott<address>
                                                       <addrLine>
-                                                            <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7017990">Mainz</geogName>
+                                                            <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="7017990">Mainz</geogName>
                                                       </addrLine>
                                                       <addrLine>
-                                                            <geogName auth="TGN" auth.uri="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084">Germany</geogName>
+                                                            <geogName authority="TGN" authURI="www.getty.edu/research/tools/vocabularies/tgn" codedval="7000084">Germany</geogName>
                                                       </addrLine>
                                                 </address>
                                           </corpName>
@@ -155,7 +155,7 @@
                         <titleStmt>
                               <title type="uniform">Konzerte, Klar Orch, KV 622 </title>
                               <respStmt>
-                                    <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
+                                    <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" codedval="118584596">Wolfgang Amadé Mozart</persName>
                               </respStmt>
                         </titleStmt>
                         <incip xml:id="incip" label="first-four-bars-of-the-clarinet-part">
@@ -187,8 +187,8 @@
                                                             <beam>
                                                                   <note xml:id="i-m2-n1" pname="a" oct="5" dur="8" stem.dir="down" instr="P4-I1"/>
                                                                   <note xml:id="i-m2-n2" pname="g" oct="5" dur="8" stem.dir="down" instr="P4-I1"/>
-                                                                  <note xml:id="" pname="f" oct="5" dur="8" stem.dir="down" artic="stacc" instr="P4-I1"/>
-                                                                  <note xml:id="" pname="e" oct="5" dur="8" stem.dir="down" artic="stacc" instr="P4-I1"/>
+                                                                  <note xml:id="i-m2-n3" pname="f" oct="5" dur="8" stem.dir="down" artic="stacc" instr="P4-I1"/>
+                                                                  <note xml:id="i-m2-n4" pname="e" oct="5" dur="8" stem.dir="down" artic="stacc" instr="P4-I1"/>
                                                             </beam>
                                                             <note pname="e" oct="5" dur="4" stem.dir="down" instr="P4-I1"/>
                                                             <rest dur="4"/>
@@ -237,19 +237,19 @@
                                     <perfRes codedval="sd">Violoncello &amp; Double Bass</perfRes>
                               </perfResList>
                         </perfMedium>
-                        <context type="period-of-music-history">Viennese Classic</context>
-                        <classification>
-                              <classCode auth.uri="http://www.dnb.de/SharedDocs/Downloads/DE/DNB/service/ddcSachgruppenDNB.html" xml:id="DNB_Sachgruppen">Deutsche Nationalbibliothek</classCode>
+                        <context>Viennese Classic</context>
+                     <!--   <classification>
+                              <classCode authURI="http://www.dnb.de/SharedDocs/Downloads/DE/DNB/service/ddcSachgruppenDNB.html" xml:id="DNB_Sachgruppen">Deutsche Nationalbibliothek</classCode>
                               <termList>
                                     <term classCode="#DNB_Sachgruppen">03a Werke für Einzelinstrumente, Kammermusik</term>
                               </termList>
-                        </classification>
+                        </classification>-->
                   </work>
             </workDesc>
             <revisionDesc>
                   <change n="1">
                         <respStmt>
-                              <persName>Alexey Sapov</persName>
+                              <persName>Oleksii Sapov</persName>
                         </respStmt>
                         <changeDesc>
                               <p>Started encoding</p>
@@ -258,7 +258,7 @@
                   </change>
                   <change n="2">
                         <respStmt>
-                              <persName>Alexey Sapov</persName>
+                              <persName>Oleksii Sapov</persName>
                         </respStmt>
                         <changeDesc>
                               <p>finished encoding</p>
