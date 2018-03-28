@@ -69,7 +69,7 @@
             /* A function that applies the XSLT and load the data */
             ////////////////////////////////////////////////////////
             function loadFile() {
-                var file = "../mei/clarinet_concerto.mei";
+                var file = "../mei/clarinet_concerto.xml";
                 var xsl = Saxon.requestXML("../xslt/stripStaff.xsl");
                 var xml = Saxon.requestXML(file);
                 var proc = Saxon.newXSLT20Processor(xsl);
