@@ -20,7 +20,7 @@
                         <unpub/>
                   </pubStmt>
                   <sourceDesc>
-                        <source n="1" xml:id="B-77" >
+                        <source n="1" xml:id="B-77">
                               <identifier type="Verbund-ID-Nr.-Austria">AC02050330</identifier>
                               <titleStmt>
                                     <title authority="GND" authURI="http://d-nb.info" codedval="354096656">Konzert in A für Klarinette und Orchester</title>
@@ -238,7 +238,7 @@
                               </perfResList>
                         </perfMedium>
                         <context>Viennese Classic</context>
-                     <!--   <classification>
+                        <!--   <classification>
                               <classCode authURI="http://www.dnb.de/SharedDocs/Downloads/DE/DNB/service/ddcSachgruppenDNB.html" xml:id="DNB_Sachgruppen">Deutsche Nationalbibliothek</classCode>
                               <termList>
                                     <term classCode="#DNB_Sachgruppen">03a Werke für Einzelinstrumente, Kammermusik</term>
@@ -290,14 +290,17 @@
                                           <staffGrp symbol="bracket">
                                                 <staffDef n="3" xml:id="P3" label="Horn in A (I, II)" label.abbr="A Hn." lines="5" clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
                                           </staffGrp>
-                                          <staffDef n="4" xml:id="P4" label="Clarinet in A (solo)" label.abbr="Cl." lines="5" clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
+                                          <staffGrp symbol="bracket">
+                                                <staffDef n="4" xml:id="P4" label="Clarinet in A (solo)" label.abbr="Cl." lines="5" clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
+                                                <staffDef n="5" xml:id="P5" label="Basset Clarinet in A (solo)" label.abbr="Bt. Cl." lines="5" clef.line="2" clef.shape="G" key.sig="0" trans.semi="-3" trans.diat="-2"/>
+                                          </staffGrp>
                                           <staffGrp symbol="bracket">
                                                 <staffGrp symbol="line">
-                                                      <staffDef n="5" xml:id="P5" label="Violin I" label.abbr="Vln. I" lines="5" clef.line="2" clef.shape="G"/>
-                                                      <staffDef n="6" xml:id="P6" label="Violin II" label.abbr="Vln. II" lines="5" clef.line="2" clef.shape="G"/>
+                                                      <staffDef n="5" xml:id="P6" label="Violin I" label.abbr="Vln. I" lines="5" clef.line="2" clef.shape="G"/>
+                                                      <staffDef n="6" xml:id="P7" label="Violin II" label.abbr="Vln. II" lines="5" clef.line="2" clef.shape="G"/>
                                                 </staffGrp>
-                                                <staffDef n="7" xml:id="P7" label="Viola" label.abbr="Vla." lines="5" clef.line="3" clef.shape="C"/>
-                                                <staffDef n="8" xml:id="P8" label="Contrabass &amp; Violoncello" label.abbr="Cb. &amp; Vc." lines="5" clef.line="4" clef.shape="F" trans.semi="-12" trans.diat="0"/>
+                                                <staffDef n="7" xml:id="P8" label="Viola" label.abbr="Vla." lines="5" clef.line="3" clef.shape="C"/>
+                                                <staffDef n="8" xml:id="P9" label="Contrabass &amp; Violoncello" label.abbr="Cb. &amp; Vc." lines="5" clef.line="4" clef.shape="F" trans.semi="-12" trans.diat="0"/>
                                           </staffGrp>
                                     </staffGrp>
                               </scoreDef>
@@ -2659,7 +2662,7 @@
                                                       <beam>
                                                             <note xml:id="d1e21291" pname="a" oct="5" dur="16" stem.dir="down" instr="P1-I1"/>
                                                             <note xml:id="d1e21320" pname="g" oct="5" dur="16" stem.dir="down" instr="P1-I1">
-                                                                  <accid accid="n" place="above" func="edit" color="brown"/>
+                                                                  <accid accid="n" place="above" func="edit" color="#f4a460"/>
                                                             </note>
                                                             <note xml:id="d1e21343" pname="f" oct="5" dur="16" stem.dir="down" accid.ges="s" instr="P1-I1"/>
                                                             <note xml:id="d1e21366" pname="e" accid="n" oct="5" dur="16" stem.dir="down" instr="P1-I1"/>
@@ -2707,7 +2710,7 @@
                                                       <beam>
                                                             <note xml:id="d1e21790" pname="c" oct="6" dur="16" stem.dir="down" instr="P4-I1"/>
                                                             <note xml:id="d1e21819" pname="b" oct="5" dur="16" stem.dir="down" instr="P4-I1">
-                                                                  <accid accid="f" func="edit" place="above" color="brown"/>
+                                                                  <accid accid="f" func="edit" place="above" color="#f4a460"/>
                                                             </note>
                                                             <note xml:id="d1e21840" pname="a" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
                                                             <note xml:id="d1e21861" pname="g" accid="n" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
@@ -2733,7 +2736,7 @@
                                                       <beam>
                                                             <note xml:id="d1e22100" pname="a" oct="5" dur="16" stem.dir="down" instr="P5-I1"/>
                                                             <note xml:id="d1e22129" pname="g" oct="5" dur="16" stem.dir="down" instr="P5-I1">
-                                                                  <accid accid="n" place="above" color="brown" func="edit"/>
+                                                                  <accid accid="n" place="above" color="#f4a460" func="edit"/>
                                                             </note>
                                                             <note xml:id="d1e22152" pname="f" oct="5" dur="16" stem.dir="down" accid.ges="s" instr="P5-I1"/>
                                                             <note xml:id="d1e22175" pname="e" accid="n" oct="5" dur="16" stem.dir="down" instr="P5-I1"/>
@@ -2759,7 +2762,7 @@
                                                       <beam>
                                                             <note xml:id="d1e22418" pname="a" oct="5" dur="16" stem.dir="down" instr="P6-I1"/>
                                                             <note xml:id="d1e22447" pname="g" oct="5" dur="16" stem.dir="down" instr="P6-I1">
-                                                                  <accid accid="n" place="above" color="brown" func="edit"/>
+                                                                  <accid accid="n" place="above" color="#f4a460" func="edit"/>
                                                             </note>
                                                             <note xml:id="d1e22470" pname="f" oct="5" dur="16" stem.dir="down" accid.ges="s" instr="P6-I1"/>
                                                             <note xml:id="d1e22493" pname="e" accid="n" oct="5" dur="16" stem.dir="down" instr="P6-I1"/>
@@ -11367,7 +11370,7 @@
                                                       <beam>
                                                             <note xml:id="d1e94086" pname="g" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
                                                             <note xml:id="d1e94115" pname="f" oct="5" dur="16" stem.dir="down" instr="P4-I1">
-                                                                  <accid accid="n" place="above" func="edit" color="brown"/>
+                                                                  <accid accid="n" place="above" func="edit" color="#f4a460"/>
                                                             </note>
                                                             <note xml:id="d1e94138" pname="e" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
                                                             <note xml:id="d1e94159" pname="d" accid="n" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
@@ -15733,7 +15736,7 @@
                                                       <beam>
                                                             <note xml:id="d1e128872" pname="e" oct="6" dur="16" stem.dir="down" instr="P1-I1"/>
                                                             <note xml:id="d1e128901" pname="d" oct="6" dur="16" stem.dir="down" instr="P1-I1">
-                                                                  <accid accid="n" place="above" func="edit" color="brown"/>
+                                                                  <accid accid="n" place="above" func="edit" color="#f4a460"/>
                                                             </note>
                                                             <note xml:id="d1e128924" pname="c" oct="6" dur="16" stem.dir="down" accid.ges="s" instr="P1-I1"/>
                                                             <note xml:id="d1e128948" pname="b" accid="n" oct="5" dur="16" stem.dir="down" instr="P1-I1"/>
@@ -15779,7 +15782,7 @@
                                                       <beam>
                                                             <note xml:id="d1e129385" pname="g" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
                                                             <note xml:id="d1e129414" pname="f" oct="5" dur="16" stem.dir="down" instr="P4-I1">
-                                                                  <accid accid="n" place="above" func="edit" color="brown"/>
+                                                                  <accid accid="n" place="above" func="edit" color="#f4a460"/>
                                                             </note>
                                                             <note xml:id="d1e129437" pname="e" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
                                                             <note xml:id="d1e129458" pname="d" accid="n" oct="5" dur="16" stem.dir="down" instr="P4-I1"/>
@@ -15805,7 +15808,7 @@
                                                       <beam>
                                                             <note xml:id="d1e129711" pname="e" oct="5" dur="16" stem.dir="down" instr="P5-I1"/>
                                                             <note xml:id="d1e129740" pname="d" oct="5" dur="16" stem.dir="down" instr="P5-I1">
-                                                                  <accid accid="n" place="above" color="brown" func="edit"/>
+                                                                  <accid accid="n" place="above" color="#f4a460" func="edit"/>
                                                             </note>
                                                             <note xml:id="d1e129763" pname="c" oct="5" dur="16" stem.dir="down" accid.ges="s" instr="P5-I1"/>
                                                             <note xml:id="d1e129786" pname="b" accid="n" oct="4" dur="16" stem.dir="down" instr="P5-I1"/>
@@ -15831,7 +15834,7 @@
                                                       <beam>
                                                             <note xml:id="d1e130043" pname="e" oct="5" dur="16" stem.dir="down" instr="P6-I1"/>
                                                             <note xml:id="d1e130072" pname="d" oct="5" dur="16" stem.dir="down" instr="P6-I1">
-                                                                  <accid accid="n" place="above" color="brown" func="edit"/>
+                                                                  <accid accid="n" place="above" color="#f4a460" func="edit"/>
                                                             </note>
                                                             <note xml:id="d1e130095" pname="c" oct="5" dur="16" stem.dir="down" accid.ges="s" instr="P6-I1"/>
                                                             <note xml:id="d1e130118" pname="b" accid="n" oct="4" dur="16" stem.dir="down" instr="P6-I1"/>
